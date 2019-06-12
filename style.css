@@ -1,0 +1,41 @@
+.colorBody {
+
+    background: #81b7f59c;
+}
+
+.colorDayone{
+
+    background: pink;
+}
+
+.sectionHeader {
+
+    color: #1000a5;
+    
+
+
+}
+
+.diaryHeader {
+
+    color: rgb(245, 143, 9);
+    font-size: 32px;
+}
+
+.mainHeader {
+
+    color: tomato;
+    font-size: 50px;
+
+
+}
+.hthree{
+
+    color: rgb(248, 24, 8);
+    font-size: 25px;
+}
+
+.articleP{
+
+    font-size: 20px;
+}
