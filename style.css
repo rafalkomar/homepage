@@ -12,8 +12,6 @@
 
     color: #80ced7;
 
-
-
 }
 
 .diaryHeader {
@@ -27,8 +25,6 @@
     color: tomato;
     font-size: 50px;
     margin-bottom: 50px;
-
-
 }
 
 .hthree {
@@ -41,15 +37,21 @@
 
     font-size: 20px;
 }
-.main{
-width: 100%;
-max-width: 700px;
-margin:32px auto;
+
+.main , .colorBody {
+
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    position: relative;
 }
 
-.paragraph{
-
-    padding: 16px;
-    
-
+.box{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border:10px solid red;
+    box-sizing: border-box;
+    position: absolute;
 }
