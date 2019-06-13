@@ -1,3 +1,69 @@
+.body{
+
+}
+
+.header{
+    box-sizing: border-box;
+    position: absolute;
+    background: red;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 14px;
+}
+
+.main{
+
+
+
+}
+
+.main__header{
+
+
+}
+
+.about{
+
+
+}    
+.about__header{
+
+
+
+}
+.about__paragraph{
+
+
+}
+
+.diary{
+
+
+}
+
+.diary__day{
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .colorBody {
 
     background: #4aaf2b9c;
@@ -20,7 +86,7 @@
     font-size: 32px;
 }
 
-.mainHeader {
+.main__header {
 
     color: tomato;
     font-size: 50px;
@@ -44,6 +110,7 @@
     max-width: 700px;
     margin: 32px auto;
     position: relative;
+    padding: 15px;
 }
 
 .box{
@@ -55,3 +122,9 @@
     box-sizing: border-box;
     position: absolute;
 }
+
+.body__nav{
+    
+
+}
+
