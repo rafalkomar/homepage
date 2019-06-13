@@ -3,7 +3,7 @@
     background: #4aaf2b9c;
 }
 
-.colorDayone{
+.colorDayone {
 
     background: #80ced7;
 }
@@ -11,7 +11,7 @@
 .sectionHeader {
 
     color: #80ced7;
-    
+
 
 
 }
@@ -26,16 +26,30 @@
 
     color: tomato;
     font-size: 50px;
+    margin-bottom: 50px;
 
 
 }
-.hthree{
+
+.hthree {
 
     color: #80ced7;
     font-size: 25px;
 }
 
-.articleP{
+.articleP {
 
     font-size: 20px;
+}
+.main{
+width: 100%;
+max-width: 700px;
+margin:32px auto;
+}
+
+.paragraph{
+
+    padding: 16px;
+    
+
 }
