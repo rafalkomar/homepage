@@ -2,7 +2,7 @@
 
 }
 
-.header{
+.body__header{
     box-sizing: border-box;
     position: absolute;
     background: red;
