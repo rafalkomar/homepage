@@ -1,110 +1,22 @@
-.body{
+.body {
+    background: #a0eb8a9c;
 
 }
 
-.body__header{
+.navigation {
     box-sizing: border-box;
-    position: absolute;
-    background: red;
+    background: rgb(68, 128, 71);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 14px;
+    padding: 20px;
+    text-align: center;
 }
 
-.main{
+.navigation__link {}
 
-
-
-}
-
-.main__header{
-
-
-}
-
-.about{
-
-
-}    
-.about__header{
-
-
-
-}
-.about__paragraph{
-
-
-}
-
-.diary{
-
-
-}
-
-.diary__day{
-
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.colorBody {
-
-    background: #4aaf2b9c;
-}
-
-.colorDayone {
-
-    background: #80ced7;
-}
-
-.sectionHeader {
-
-    color: #80ced7;
-
-}
-
-.diaryHeader {
-
-    color: rgb(245, 143, 9);
-    font-size: 32px;
-}
-
-.main__header {
-
-    color: tomato;
-    font-size: 50px;
-    margin-bottom: 50px;
-}
-
-.hthree {
-
-    color: #80ced7;
-    font-size: 25px;
-}
-
-.articleP {
-
-    font-size: 20px;
-}
-
-.main , .colorBody {
+.main {
 
     width: 100%;
     max-width: 700px;
@@ -113,18 +25,50 @@
     padding: 15px;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    background: yellowgreen;
-    padding: 10px;
-    border:10px solid red;
-    box-sizing: border-box;
-    position: absolute;
-}
 
-.body__nav{
-    
+.title {}
+
+.title__header {
+    color: tomato;
+    font-size: 50px;
+    margin-bottom: 50px;
 
 }
 
+
+.about {
+    color: #80ced7;
+    font-size: 25px;
+
+}
+
+.about__header {
+    color: #80ced7;
+    font-size: 25px;
+
+
+}
+
+.about__paragraph {
+
+    color: #80ced7;
+    font-size: 25px;
+}
+
+.diary {
+    color: #80ced7;
+    font-size: 25px;
+
+}
+
+.diary__header {
+    color: #80ced7;
+    font-size: 25px;
+
+}
+
+.diary__day {
+    color: #80ced7;
+    font-size: 25px;
+
+}
