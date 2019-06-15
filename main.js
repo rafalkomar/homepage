@@ -8,11 +8,12 @@ console.log(age);
 console.log(`Nazywam sie ${name} i mam ${age} lat`)
 
 
-const heading = document.querySelector('.title__header');
+const heading = document.querySelector('.diary__paragraph--js');
 
 console.log(heading.innerHTML);
-heading.innerHTML='pozdro JS';
+
+heading.innerHTML=`Nazywam sie ${name} i mam ${age} lat`;
 
 const headingg = document.querySelectorAll('p');
 
-console.log(headingg[0]);
+console.log(headingg[4]);
