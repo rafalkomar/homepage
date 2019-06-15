@@ -62,7 +62,7 @@
 }
 
 .diary__header {
-    color: #80ced7;
+    color: #29b658;
     font-size: 25px;
 
 }
@@ -70,5 +70,9 @@
 .diary__day {
     color: tomato;
     font-size: 25px;
+
+}
+.diary__link{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
