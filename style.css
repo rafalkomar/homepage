@@ -1,30 +1,32 @@
 .body {
     background: #a0eb8a9c;
     
+    max-width: 700px;
+    margin: 32px auto;
+    position: relative;
+    padding: 15px;
+    
 }
 
 .navigation {
-    box-sizing: border-box;
-    background: rgb(68, 128, 71);
+    box-sizing: border-box;  
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     padding: 20px;
-    text-align: center;
+    
+    
 }
 
-.navigation__link {}
+.navigation__link {
+
+    text-decoration: none;
+}
 
 .main {
-
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
-    position: relative;
-    padding: 15px;
+   
 }
-
 
 .title {}
 
@@ -69,10 +71,94 @@
 
 .diary__day {
     color: tomato;
-    font-size: 25px;
+    font-size: 15px;
+    margin-bottom: 50px;
 
 }
 .diary__link{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
 
+
+    
+
+.footer__title{
+         
+    
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+   
+}
+
+
+.box{
+    box-sizing: border-box; 
+    width: 10vh;
+    height: 10vh;
+    background: red;
+    margin: 100px auto;
+    padding: 50px;
+    border:royalblue solid 10px;
+    position: static;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+.body {
+    background: #a0eb8a9c;
+    max-width: 700px;
+    margin: 32px auto;
+    position: relative;
+    padding: 15px;
+}
+
+.article{
+
+
+}
+
+.article__header{
+
+    color: tomato;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+
+.article__title{
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    
+
+}
+
+.article__paragraph{
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+
+}
+
+.boxone{
+    box-sizing: border-box; 
+    width: 100vh;
+    height:50vh;
+    background: red;
+    margin: 100px auto;
+    padding: 50px;
+    border:royalblue solid 10px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+ 
 }
