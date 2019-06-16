@@ -1,24 +1,18 @@
 .body {
+    
     background: #a0eb8a9c;
-    
     max-width: 700px;
-    margin: 32px auto;
-    position: relative;
-    padding: 10px;
-    border: 1px solid red;
-    border-radius: 50px;
-    
+    margin: 10px auto;
+    padding: 25px;
 }
 
 .navigation {
-    box-sizing: border-box;  
-    width: 100%;
+    
     position: fixed;
+    left: 10px;
     top: 0;
-    left: 0;
-    padding: 15px;
-    
-    
+    padding: 10px;
+      
 }
 
 .navigation__link {
@@ -31,13 +25,12 @@
 }
 
 .title {
-    
+    margin-bottom: 50px;
 }
 
 .title__header {
     color: tomato;
-    font-size: 50px;
-    margin-bottom: 50px;
+    font-size: 45px;
 
 }
 
@@ -76,7 +69,7 @@
 .diary__day {
     color: tomato;
     font-size: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
 
 }
@@ -100,20 +93,7 @@ text-decoration: none;
 }
 
 
-.box{
-    box-sizing: border-box; 
-    width: 10vh;
-    height: 10vh;
-    background: red;  
-    border:royalblue solid 10px;
-    position: sticky;
-    border-radius: 50px;
-    text-decoration: none;
-    top:0;
-    left:100%;
-    float:right;
 
-}
 
 
 
