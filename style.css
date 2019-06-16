@@ -1,95 +1,120 @@
 .body {
-    
-    background: #a0eb8a9c;
+
+    background: #2d2241;
     max-width: 700px;
     margin: 10px auto;
     padding: 25px;
+
 }
 
 .navigation {
-    
+
     position: fixed;
     left: 10px;
     top: 0;
     padding: 10px;
-      
+    font-size: 20px;
+    font-family: lazer84;
+
+
 }
 
 .navigation__link {
 
     text-decoration: none;
+    color: #f9c802;
 }
 
-.main {
-  
-}
+.main {}
 
 .title {
     margin-bottom: 50px;
 }
 
 .title__header {
-    color: tomato;
+
     font-size: 45px;
+    font-family: lazer84;
+    color: #f9c802;
+    text-shadow: 2px 2px 0 #e30613;
 
 }
 
 
 .about {
     color: #80ced7;
-    font-size: 25px;
+    font-size: 15px;
 
 }
 
 .about__header {
-    color: #80ced7;
-    font-size: 25px;
+
+    color: #fff;
+    font-family: rubik;
 
 
 }
 
 .about__paragraph {
 
-    color: #80ced7;
-    font-size: 25px;
+    color: #fff;
+    font-family: rubik;
+}
+
+.about__nav {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: lazer84;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+
 }
 
 .diary {
-    color: #80ced7;
-    font-size: 25px;
+    color: #fff;
+    font-family: rubik;
 
 }
 
 .diary__header {
-    color: #29b658;
-    font-size: 25px;
+    color: #fff;
+    font-family: rubik;
 
 }
 
 .diary__day {
-    color: tomato;
     font-size: 15px;
-    margin-bottom: 30px;
-    
+    font-family: lazer84;
+    color: #f9c802;
+
+
 
 }
-.diary__link{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-decoration: none;
+
+.diary__link {
+    font-size: 15px;
+    font-family: lazer84;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
 }
 
 
-    
 
-.footer__title{
-         
-    
+
+.footer__title {
+
+
     position: fixed;
     bottom: 10px;
     right: 10px;
     text-decoration: none;
-    
-   
+    color: #f9c802;
+    font-size: 20px;
+    font-family: lazer84;
+
+
 }
 
 
@@ -97,5 +122,21 @@ text-decoration: none;
 
 
 
-------------------------------------------------------------------------------------------------------------
 
+.body-one {
+
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 15px;
+    background: #2d2241;
+
+
+
+}
+
+.article, .footer {
+    font-size: 20px;
+    font-family: lazer84;
+    color: #f9c802;
