@@ -4,7 +4,9 @@
     max-width: 700px;
     margin: 32px auto;
     position: relative;
-    padding: 15px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 50px;
     
 }
 
@@ -14,7 +16,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 15px;
     
     
 }
@@ -25,10 +27,12 @@
 }
 
 .main {
-   
+  
 }
 
-.title {}
+.title {
+    
+}
 
 .title__header {
     color: tomato;
@@ -73,6 +77,7 @@
     color: tomato;
     font-size: 15px;
     margin-bottom: 50px;
+    
 
 }
 .diary__link{
@@ -90,6 +95,7 @@ text-decoration: none;
     bottom: 10px;
     right: 10px;
     text-decoration: none;
+    
    
 }
 
@@ -98,13 +104,14 @@ text-decoration: none;
     box-sizing: border-box; 
     width: 10vh;
     height: 10vh;
-    background: red;
-    margin: 100px auto;
-    padding: 50px;
+    background: red;  
     border:royalblue solid 10px;
-    position: static;
+    position: sticky;
     border-radius: 50px;
     text-decoration: none;
+    top:0;
+    left:100%;
+    float:right;
 
 }
 
@@ -112,53 +119,3 @@ text-decoration: none;
 
 ------------------------------------------------------------------------------------------------------------
 
-.body {
-    background: #a0eb8a9c;
-    max-width: 700px;
-    margin: 32px auto;
-    position: relative;
-    padding: 15px;
-}
-
-.article{
-
-
-}
-
-.article__header{
-
-    color: tomato;
-    font-size: 20px;
-    margin-bottom: 50px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-
-
-
-.article__title{
-
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    
-
-}
-
-.article__paragraph{
-
-    font-family: Comic Sans MS, Comic Sans, cursive;
-
-
-}
-
-.boxone{
-    box-sizing: border-box; 
-    width: 100vh;
-    height:50vh;
-    background: red;
-    margin: 100px auto;
-    padding: 50px;
-    border:royalblue solid 10px;
-    position: absolute;
-    border-radius: 50px;
-    z-index: -1;
- 
-}
