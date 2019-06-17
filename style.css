@@ -1,11 +1,10 @@
 .body {
 
-    background: #2d2241;
+    
     max-width: 700px;
     margin: 10px auto;
     padding: 25px;
-
-}
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );}
 
 .navigation {
 
@@ -23,9 +22,12 @@
 
     text-decoration: none;
     color: #f9c802;
+    text-shadow: 1px 1px 0 #e30613;
 }
 
-.main {}
+.main {
+
+}
 
 .title {
     margin-bottom: 50px;
@@ -37,6 +39,7 @@
     font-family: lazer84;
     color: #f9c802;
     text-shadow: 2px 2px 0 #e30613;
+    text-align: center;
 
 }
 
@@ -51,14 +54,18 @@
 
     color: #fff;
     font-family: rubik;
+    text-align: center;
+    font-size: 30px;
 
 
 }
 
 .about__paragraph {
 
-    color: #fff;
-    font-family: rubik;
+    font-size: 15px;
+    font-family: lazer84;
+    color: #f9c802;
+    
 }
 
 .about__nav {
@@ -80,19 +87,24 @@
 .diary__header {
     color: #fff;
     font-family: rubik;
+    text-align: center;
+    font-size: 30px;
+    
 
 }
 
-.diary__day {
+.day {
     font-size: 15px;
     font-family: lazer84;
     color: #f9c802;
+    padding: 10px;
+    margin: 10px;
 
 
 
 }
 
-.diary__link {
+.day__link {
     font-size: 15px;
     font-family: lazer84;
     color: black;
@@ -101,6 +113,14 @@
 }
 
 
+
+.footerr{
+
+    font-weight: 900;
+    text-align: center;
+
+    
+}
 
 
 .footer__title {
@@ -113,9 +133,39 @@
     color: #f9c802;
     font-size: 20px;
     font-family: lazer84;
+    text-shadow: 1px 1px 0 #e30613;
 
 
 }
+
+.box{
+
+position: sticky;
+top:10px;
+right:10px;
+color: #f9c802;
+text-shadow: 1px 1px 0 #e30613;
+font-family: lazer84;
+font-size: 50px;
+
+box-sizing: border-box;
+padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
