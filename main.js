@@ -1,6 +1,6 @@
 console.log('siema');
 const name ='Rafal Komar';
-const age=10;
+const age=26;
 console.log(name);
 console.log(age);
 console.log(`Nazywam sie ${name} i mam ${age} lat`)
@@ -10,8 +10,10 @@ console.log(`Nazywam sie ${name} i mam ${age} lat`)
 
 
 
-const headingg = document.querySelectorAll('p');
-console.log(headingg[0]);
+const headingg = document.querySelector('.title__header');
+
+headingg.innerHTML= 'lol';
+
 
 
 
@@ -31,6 +33,7 @@ if(age<20){
 } else if (age>=20 && age <= 30){
     console.log('masz wiecej niz 20 lat ale mniej niz 30')
 }
+
 
 switch (age){
 
@@ -53,14 +56,34 @@ switch (age){
 const old= (age>10) ? 'yes': 'no';
 console.log(old);
 
-if (age<10) {
 
-    console.log('yes');
-    
-}else if (age>10) {
-    
 
-    }
 
+
+function calculate(x){
+x=x+3;
+console.log(x);
+return x*7
+}
+
+console.log(calculate(2))
+
+const calcu = (x) =>{
+    x=x+3;
+    console.log(`fat:${x}`);
+    return x*7
+
+}
+console.log(calcu(2))
+
+
+function welcome(imie,wiek){
+
+console.log(`Witam Cię : ${imie}`);
+console.log(`Masz : ${wiek} lat`);
+
+}
+
+welcome('Rafal', 26 );
 
     
