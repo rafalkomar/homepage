@@ -58,15 +58,17 @@ console.log(old);
 
 
 
-
-
 function calculate(x){
 x=x+3;
-console.log(x);
-return x*7
-}
+return x
 
+}
 console.log(calculate(2))
+
+
+
+
+
 
 const calcu = (x) =>{
     x=x+3;
@@ -77,13 +79,14 @@ const calcu = (x) =>{
 console.log(calcu(2))
 
 
-function welcome(imie,wiek){
 
-console.log(`Witam Cię : ${imie}`);
-console.log(`Masz : ${wiek} lat`);
+
+function welcome(imie,wiek){
+ 
+return(`Witam Cię : ${imie} masz : ${wiek} lat `);
 
 }
 
-welcome('Rafal', 26 );
+console.log(welcome('Rafal' , 26 ));
 
     
