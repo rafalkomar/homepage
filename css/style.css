@@ -21,7 +21,7 @@ html{
 
 .navigation {
 
-    position: fixed;
+    
     left: 10px;
     top: 0px;
     padding: 0px;
@@ -36,13 +36,16 @@ html{
 }
 .navigation__list{
     list-style: none;
-    padding: 0;
-    
+    padding:10px;
+    margin: 0;
+    display: flex;
+        justify-content: space-around;
+
 
 }
 .navigation__item{
+   
     
-    display: inline;
     
 
 }
