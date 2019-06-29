@@ -89,4 +89,15 @@ return(`Witam Cię : ${imie} masz : ${wiek} lat `);
 
 console.log(welcome('Rafal' , 26 ));
 
-    
+
+
+const button = document.querySelector('.navigation__switcher--js');  
+
+button.addEventListener('click',(e)=> {
+
+const navigationList=document.querySelector('.navigation__list--js')
+
+
+navigationList.classList.toggle('navigation__list--visible')
+
+});
