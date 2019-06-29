@@ -198,11 +198,16 @@ html {
 
 
 
+
+
+
+
+
 .grid{
 
     display: grid;
     grid-template-areas: "header"
-    "content "
+    "content  "
     "footer ";
     grid-template-columns: 1fr ;
     grid-column-gap: 20px;
@@ -252,7 +257,21 @@ html {
 }
 
 
+.gridd{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
 
+}
+
+@media (min-width:640px) {
+
+   .gridd{
+
+       grid-template-columns: 1fr 1fr;
+   }
+}
 
 
 
