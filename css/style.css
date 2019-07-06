@@ -57,6 +57,11 @@ html {
 
 }
 
+.navigation__link:hover{
+
+    background: #e30613;
+}
+
 .main {
     position: static;
     max-width: 700px;
@@ -134,11 +139,19 @@ html {
     font-family: lazer84;
     color: #f9c802;
 
-
-
-
-
 }
+
+.day__header::before{
+
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #f9c802;
+    margin-right: 5px;
+}
+
 
 .day__link {
     font-size: 15px;
@@ -147,6 +160,7 @@ html {
     text-decoration: none;
     font-weight: 900;
 }
+
 
 
 
@@ -277,7 +291,7 @@ html {
 
     display: none;
    }
-
+   
 }
 
 
@@ -304,6 +318,7 @@ html {
     border: none;
     background: none;
     font-size: 20px;
+
 
 }
 

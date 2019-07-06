@@ -10,9 +10,6 @@ console.log(`Nazywam sie ${name} i mam ${age} lat`)
 
 
 
-const headingg = document.querySelector('.title__header');
-
-headingg.innerHTML= 'lol';
 
 
 
